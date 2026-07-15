@@ -1,0 +1,33 @@
+.ui-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 1.35rem;
+  border: 1px solid var(--colour-border);
+  border-radius: var(--radius-medium);
+  background: var(--colour-surface);
+  box-shadow: 0 7px 22px rgba(20, 50, 74, 0.05);
+}
+
+.ui-card h3 {
+  margin: 0 0 0.85rem;
+  font-size: 1.2rem;
+}
+
+.ui-card__eyebrow {
+  margin: 0 0 0.4rem;
+  color: var(--colour-success);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.11em;
+}
+
+.ui-card__content {
+  flex: 1;
+}
+
+.ui-card__footer {
+  margin-top: 1.15rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--colour-border);
+}

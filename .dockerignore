@@ -1,0 +1,10 @@
+node_modules
+build
+coverage
+.git
+.gitignore
+README.md
+DEMONSTRATION_GUIDE.md
+SUBMISSION_CHECKLIST.md
+npm-debug.log*
+*.zip

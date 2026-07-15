@@ -1,0 +1,5 @@
+echo "Running Assignment 13 pre-commit quality checks..."
+npm run format:check
+npm run lint
+npm run test:ci
+echo "All pre-commit quality checks passed."

@@ -1,0 +1,22 @@
+.ui-alert {
+  display: grid;
+  gap: 0.35rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid #b8cfdf;
+  border-left-width: 5px;
+  border-radius: var(--radius-small);
+  color: #193247;
+  background: #eaf4fb;
+}
+
+.ui-alert--success {
+  border-color: #9bc5ae;
+  color: #16482f;
+  background: #e8f5ee;
+}
+
+.ui-alert--warning {
+  border-color: #d5b66d;
+  color: #5f4100;
+  background: #fff6df;
+}

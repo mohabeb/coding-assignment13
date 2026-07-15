@@ -1,0 +1,31 @@
+.ui-badge {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  min-height: 28px;
+  padding: 0.25rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.74rem;
+  font-weight: 800;
+  letter-spacing: 0.03em;
+}
+
+.ui-badge--neutral {
+  color: #33485b;
+  background: #e8eef3;
+}
+
+.ui-badge--success {
+  color: #ffffff;
+  background: var(--colour-success);
+}
+
+.ui-badge--warning {
+  color: #4c3100;
+  background: #f4d58b;
+}
+
+.ui-badge--danger {
+  color: #ffffff;
+  background: var(--colour-danger);
+}

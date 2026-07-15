@@ -1,0 +1,29 @@
+.ui-input-group {
+  display: grid;
+  gap: 0.45rem;
+  margin-bottom: 1rem;
+}
+
+.ui-input-group label {
+  font-weight: 750;
+}
+
+.ui-input-group input {
+  width: 100%;
+  min-height: 44px;
+  padding: 0.7rem 0.8rem;
+  border: 1px solid #aebdca;
+  border-radius: var(--radius-small);
+  color: var(--colour-ink);
+  background: #ffffff;
+}
+
+.ui-input-group input:focus {
+  border-color: var(--colour-primary);
+  outline: 3px solid rgba(20, 50, 74, 0.14);
+}
+
+.ui-input-group__help {
+  color: var(--colour-muted);
+  line-height: 1.45;
+}

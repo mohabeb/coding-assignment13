@@ -1,0 +1,53 @@
+:root {
+  --colour-ink: #17212b;
+  --colour-muted: #5b6875;
+  --colour-canvas: #f5f8fb;
+  --colour-surface: #ffffff;
+  --colour-border: #d9e2ea;
+  --colour-primary: #14324a;
+  --colour-primary-hover: #234b69;
+  --colour-accent: #d9a441;
+  --colour-success: #1f7a4d;
+  --colour-warning: #8a5a00;
+  --colour-danger: #a12d36;
+  --shadow-soft: 0 16px 40px rgba(20, 50, 74, 0.09);
+  --radius-small: 8px;
+  --radius-medium: 14px;
+  --radius-large: 22px;
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  color: var(--colour-ink);
+  background: var(--colour-canvas);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background:
+    radial-gradient(circle at top right, rgba(217, 164, 65, 0.12), transparent 28rem),
+    var(--colour-canvas);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+code {
+  padding: 0.15rem 0.35rem;
+  border-radius: 5px;
+  background: #eaf0f5;
+  font-family: "Cascadia Code", Consolas, monospace;
+}
