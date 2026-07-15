@@ -48,7 +48,7 @@ function App() {
         </div>
         <Badge tone="success">Production Ready</Badge>
       </header>
-      <p>hello!</p>
+      <p>hello!
 
       <main>
         <section aria-labelledby="quality-heading" className="section-block">
